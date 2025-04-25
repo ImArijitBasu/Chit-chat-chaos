@@ -9,8 +9,6 @@ function App() {
   return (
     <>
       hello world Meghla Biswas ABC
-      This is second time commit from Joy Halder
-      This is your small project asdfasdf
     </>
   )
 }
