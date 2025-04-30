@@ -14,6 +14,10 @@ const Mainlayout = () => {
           </h1>
           <h1 className="text-2xl font-bold bg-yellow">yellow color</h1>
           <h1 className="text-2xl font-bold bg-green">green color</h1>
+          <h1 className="text-2xl font-bold bg-meghla">meghla</h1>
+          <h1 className="text-2xl font-bold bg-light-gray">lghit gray</h1>
+          <h1 className="text-2xl font-bold bg-accent">accent</h1>
+          <h1 className="text-2xl font-bold bg-pink">Pink</h1>
         </div>
         <p className="my-5">
           <span className="text-red-500 px-1">*</span>add your colors and fonts
