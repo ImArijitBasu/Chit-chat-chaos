@@ -1,9 +1,13 @@
 import React from "react";
 import { NavLink, Outlet } from "react-router";
+import Logout from "../Components/Logout";
 
 const Mainlayout = () => {
   return (
     <div>
+      <div className="flex justify-end mt-2 mr-2">
+        <Logout/>
+      </div>
       <div className=" container mx-auto my-20 ">
         <h1 className="text-4xl uppercase text-center my-5">colors</h1>
         <div className=" grid grid-cols-4 gap-2 text-center">
