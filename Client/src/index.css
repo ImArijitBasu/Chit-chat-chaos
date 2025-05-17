@@ -1,16 +1,60 @@
 @import "tailwindcss";
 
-@theme{
+@theme {
   --color-blue: #4a90e2;
   --color-yellow: #f7d300;
   --color-green: #98ff98;
   --color-ash: #b3b3b3;
   --color-charcoal: #121212;
-  --color-meghla:#213547;
-  --color-light-gray:#F0F2F5;
-  --color-accent:#06B6D4;
-  --color-pink:#8B5CF6
+  --color-Dark-Blue-Gray: #213547;
+  --color-light-gray: #F0F2F5;
+  --color-cyan: #06B6D4;
+  --color-violet: #8B5CF6;
+
+  --color-red: #ef4444;
+  --color-light-red: #fecaca;
+  --color-deep-red: #b91c1c;
+  --color-orange: #fb923c;
+  --color-deep-orange: #ea580c;
+  --color-light-orange: #fed7aa;
+
+  --color-lime: #84cc16;
+  --color-light-lime: #ecfccb;
+  --color-deep-green: #065f46;
+  --color-emerald: #10b981;
+  --color-light-emerald: #d1fae5;
+
+  --color-sky: #0ea5e9;
+  --color-light-sky: #e0f2fe;
+  --color-deep-sky: #0369a1;
+
+  --color-indigo: #6366f1;
+  --color-light-indigo: #e0e7ff;
+  --color-deep-indigo: #3730a3;
+
+  --color-pink: #ec4899;
+  --color-light-pink: #fce7f3;
+  --color-deep-pink: #9d174d;
+
+  --color-teal: #14b8a6;
+  --color-light-teal: #ccfbf1;
+  --color-deep-teal: #115e59;
+
+  --color-brown: #a16207;
+  --color-beige: #f5f5dc;
+  --color-gold: #ffd700;
+
+  --color-silver: #c0c0c0;
+  --color-platinum: #e5e4e2;
+  --color-bronze: #cd7f32;
+
+  --color-dark-gray: #2d2d2d;
+  --color-mid-gray: #6b7280;
+  --color-soft-white: #fafafa;
+  --color-pure-black: #000000;
+  --color-pure-white: #ffffff;
 }
+
 
 .my-background {
   background-image: url('/path/to/image.jpg');
