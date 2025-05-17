@@ -11,3 +11,10 @@
   --color-accent:#06B6D4;
   --color-pink:#8B5CF6
 }
+
+.my-background {
+  background-image: url('/path/to/image.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
