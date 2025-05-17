@@ -1,37 +1,50 @@
 import React from "react";
 import { NavLink, Outlet } from "react-router";
 import Logout from "../Components/Logout";
+import ColorGrid from "../Components/ColorGrid";
 
 const Mainlayout = () => {
   return (
     <div>
       <div className="flex justify-end mt-2 mr-2">
-        <Logout/>
+        <Logout />
       </div>
       <div className=" container mx-auto my-20 ">
-        <h1 className="text-4xl uppercase text-center my-5">colors</h1>
-        <div className=" grid grid-cols-4 gap-2 text-center">
-          <h1 className="text-2xl font-bold bg-ash">ash color</h1>
-          <h1 className="text-2xl font-bold bg-blue">blue color</h1>
-          <h1 className="text-2xl font-bold bg-charcoal text-white">
-            charcoal color
+        <div className="bg-yellow">
+          <h1 className="text-xl font-semibold text-Dark-Blue-Gray p-2">
+            Welcome to the heaven of colors
           </h1>
-          <h1 className="text-2xl font-bold bg-yellow">yellow color</h1>
-          <h1 className="text-2xl font-bold bg-green">green color</h1>
-          <h1 className="text-2xl font-bold bg-meghla">meghla</h1>
-          <h1 className="text-2xl font-bold bg-light-gray">lghit gray</h1>
-          <h1 className="text-2xl font-bold bg-accent">accent</h1>
-          <h1 className="text-2xl font-bold bg-pink">Pink</h1>
+          <ol  className="list-['✨'] pl-6 py-2">
+            <li>
+              <p>This project is under contraction</p>
+            </li>
+            <li>
+              {" "}
+              <p>All the colors are for test purposes only.</p>
+            </li>
+            <li>
+              {" "}
+              <p>This is not the actual website</p>
+            </li>
+            <li>
+              {" "}
+              <p>Currently only the Authentication system is active</p>
+            </li>
+          </ol>
         </div>
-        <p className="my-5">
-          <span className="text-red-500 px-1">*</span>add your colors and fonts
-          in index.css file
-        </p>
         <div className="grid grid-cols-2 border py-1 my-5">
-            <NavLink to={"/home"}><div className="border transition-all duration-500  w-1/2 hover:w-full hover:bg-ash hover:text-white bg-charcoal text-yellow text-center py-1">Home</div></NavLink>
-            <NavLink to={"/about"}><div className="border transition-all duration-500  w-1/2 hover:w-full hover:bg-ash hover:text-white bg-charcoal text-yellow text-center py-1">about</div></NavLink>
+          <NavLink to={"/home"}>
+            <div className="border transition-all duration-500  w-1/2 hover:w-full hover:bg-ash hover:text-white bg-charcoal text-yellow text-center py-1">
+              Home
+            </div>
+          </NavLink>
+          <NavLink to={"/about"}>
+            <div className="border transition-all duration-500  w-1/2 hover:w-full hover:bg-ash hover:text-white bg-charcoal text-yellow text-center py-1">
+              about
+            </div>
+          </NavLink>
         </div>
-      <Outlet />
+        <Outlet />
       </div>
     </div>
   );
